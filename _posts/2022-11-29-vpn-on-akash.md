@@ -45,7 +45,7 @@ Here's how to spin up a VPN:
 
 	![Note URL and port](/assets/1_akash_vpn/8_urlport.png)
 
-9. Under `Logs`, copy text in GREEN box, replacing (A) and (B) from `Step 8`. Note Username and Password for OpenVPN later.
+9. Under `Logs`, copy text in the GREEN box and save it as a new file named `myvpn.ovpn`, replacing (A) and (B) from `Step 8`. Note Username and Password for OpenVPN later.
 
 	![Create OVPN file](/assets/1_akash_vpn/9_ovpnfile.png)
 
@@ -60,7 +60,7 @@ Here's how to spin up a VPN:
 
 	![Network Settings VPN](/assets/1_akash_vpn/10_netsettings.png)
 
-11. Import from file
+11. Import from file, selecting your `myvpn.ovpn` file
 
 	![Import OVPN file](/assets/1_akash_vpn/11_importovpn.png)
 
@@ -75,5 +75,7 @@ Here's how to spin up a VPN:
 14. Toggle VPN on
 
 	![Toggle VPN on](/assets/1_akash_vpn/14_toggleon.png)
+
+15. Check your IP address, using whoer.net.
 
 If you're using MacOS, you should be able to use the OVPN file import and credentials with the [MacOS OpenVPN client](https://openvpn.net/client-connect-vpn-for-mac-os/).
