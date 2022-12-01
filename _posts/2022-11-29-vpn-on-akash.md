@@ -29,3 +29,42 @@ Here's how to spin up a VPN:
 
 	![Click Deposit](/assets/1_akash_vpn/4_click_deposit.png)
 
+5. Approve the Deployment Transaction
+
+	![Approve Deploy TX](/assets/1_akash_vpn/5_txdeploy.png)
+
+6. Select a Provider Bid and Accept
+	
+	![Approve Deploy TX](/assets/1_akash_vpn/6_acceptbid.png)
+
+7. Approve Lease Transaction
+
+	![Approve Lease TX](/assets/1_akash_vpn/6_txlease.png)
+
+8. Under `Leases`, take note of forwarded port
+
+	![Note URL and port](/assets/1_akash_vpn/8_urlport.png)
+
+9. Under `Logs`, copy text in GREEN box, replacing (A) and (B) from `Step 8`. Note Username and Password for OpenVPN later.
+
+	![Create OVPN file](/assets/1_akash_vpn/9_ovpnfile.png)
+
+10. Under Network Settings in Ubuntu, click `+` to add a new VPN
+
+	![Network Settings VPN](/assets/1_akash_vpn/10_netsettings.png)
+
+11. Import from file
+
+	![Import OVPN file](/assets/1_akash_vpn/11_importovpn.png)
+
+12. Enter Username/Password from `Step 9`
+
+	![User Pass from Step 9](/assets/1_akash_vpn/12_userpass.png)
+
+13. Save settings
+	
+	![Save](/assets/1_akash_vpn/13_savesettings.png)
+
+14. Toggle VPN on
+
+	![Toggle VPN on](/assets/1_akash_vpn/14_toggleon.png)
