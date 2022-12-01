@@ -39,7 +39,7 @@ Here's how to spin up a VPN:
 
 7. Approve Lease Transaction
 
-	![Approve Lease TX](/assets/1_akash_vpn/6_txlease.png)
+	![Approve Lease TX](/assets/1_akash_vpn/7_txlease.png)
 
 8. Under `Leases`, take note of forwarded port
 
@@ -50,6 +50,13 @@ Here's how to spin up a VPN:
 	![Create OVPN file](/assets/1_akash_vpn/9_ovpnfile.png)
 
 10. Under Network Settings in Ubuntu, click `+` to add a new VPN
+
+	If you do not see this, these might help:
+
+	```
+	sudo apt-get -y install network-manager-openvpn
+	sudo service network-manager restart
+	```
 
 	![Network Settings VPN](/assets/1_akash_vpn/10_netsettings.png)
 
@@ -68,3 +75,5 @@ Here's how to spin up a VPN:
 14. Toggle VPN on
 
 	![Toggle VPN on](/assets/1_akash_vpn/14_toggleon.png)
+
+If you're using MacOS, you should be able to use the OVPN file import and credentials with the [MacOS OpenVPN client](https://openvpn.net/client-connect-vpn-for-mac-os/).
